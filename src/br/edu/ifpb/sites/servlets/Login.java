@@ -51,7 +51,7 @@ public class Login extends HttpServlet {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				paginaDeRedirecionamento = "index.jsp";
+				paginaDeRedirecionamento = "gera-simulado.jsp";
 			} else {
 				paginaDeRedirecionamento = "usuarioadmin.jsp";
 			}

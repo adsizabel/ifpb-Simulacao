@@ -34,11 +34,12 @@ public class GeraSimulado extends HttpServlet {
     		//Gerar novo Simulado
     		Simulado simulado = new Simulado();
     		//Atribuir dono do Simulado
-    		simulado.setCodUsuario(usuario.getCodigo());
+    		simulado.setCodUsuario(usuario.getCodigo());   		
     		
     		try {
     			//Recuperar assunto escolhido pelo usuário
     			String assunto = request.getParameter("assunto");
+    			System.out.println("Assuntos:" + assunto);
     			//Sortear questões do Simulado
     			if (assunto.equalsIgnoreCase("geral")) {
     				questoes = questaodaocontroller.geraQuestionarioGeral();

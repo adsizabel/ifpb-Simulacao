@@ -187,7 +187,7 @@ public class QuestaoDao{
 				questao.setCodQuestao(rs.getInt("codquestao"));
 				questao.setNomeConcurso(rs.getString("nomeconcurso"));
 				questao.setAnoConcurso(rs.getString("anoconcurso"));
-				questao.setAssunto(rs.getString("assuntoconcurso"));
+				questao.setAssunto(rs.getString("assunto"));
 				questao.setEnunciado(rs.getString("enunciado"));
 				questao.setCodQuestao(rs.getInt("codQuestao"));				
 				questao.setDataCadastro(rs.getDate("dataquestao"));				

@@ -28,7 +28,7 @@ public class CadastraUsuario extends HttpServlet{
 	     String nome= request.getParameter("nome");
 	     String login= request.getParameter("login");
 	     String senha= request.getParameter("senha");
-	     String tipo = request.getParameter("tipo");
+	     String tipo = "comum";
 	 
 	     Usuario usuario = new Usuario();
 	     usuario.setNome(nome);

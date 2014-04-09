@@ -15,7 +15,7 @@
 		<span id="timer">00:00:00</span>
 	</div>
 
-	<form action="TrataQuestionario" method="post">
+	<form action="trataQuestionario" method="post">
 		<input type="hidden" name="tempo" value="" id="input-tempo" />
 		<c:forEach items="${simulado.questoes}" var="questao">
 			<p>

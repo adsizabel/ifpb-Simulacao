@@ -69,7 +69,7 @@ public class TrataQuestionario extends HttpServlet {
 		simuladoDao.addSimulado(simulado);
 		
 		request.getSession().setAttribute("simulado", simulado);
-		request.getRequestDispatcher("result.jsp").forward(request, response);
+		request.getRequestDispatcher("resultado.jsp").forward(request, response);
 	}
 
 }

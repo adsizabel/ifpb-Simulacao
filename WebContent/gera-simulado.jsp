@@ -11,7 +11,7 @@
 	<h1>Bem vindo, ${usuarioLogado.nome}!</h1>
 	
 	<!-- Opções de Simulado -->
-	<form action="GeraSimulado" method="post">
+	<form action="geraSimulado" method="post">
 	<select name="assunto">
 		<option>Selecione um assunto</option>
 		<option value="geral">Geral</option>
