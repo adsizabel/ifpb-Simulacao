@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Questões</title>
+</head>
+<body>
+	<h1>Cadastro de Questoes</h1>
+	
+	<form action="CadastroQuestoesController" method="post">
+		nomeConcurso: <input type="text" name="nomeConcurso" required> <br>
+		ano: <input type="text" name="ano" required> <br>
+		assunto: <input type="text" name="assunto" required> <br>
+		enunciado: <input type="text" name="enunciado" required> <br>
+		
+		<input type="radio" name="alternativaCorreta" value="a" required> A - <input type="text" name="alternativa1"> <br>
+		<input type="radio" name="alternativaCorreta" value="b" required> B - <input type="text" name="alternativa2"> <br>
+		<input type="radio" name="alternativaCorreta" value="c" required> C - <input type="text" name="alternativa3"> <br>
+		<input type="radio" name="alternativaCorreta" value="d" required> D - <input type="text" name="alternativa4"> <br>
+		<input type="radio" name="alternativaCorreta" value="e" required> E - <input type="text" name="alternativa5"> <br>
+				
+		<input type="submit" value="Cadastrar Questão">	
+	
+	</form>
+
+</body>
+</html>  
